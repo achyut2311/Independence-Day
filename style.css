@@ -1,0 +1,63 @@
+/* CSS Reset */
+body{
+    margin: 0px,0px;
+    padding: 0px,0px;
+    background: linear-gradient(rgb(243, 133, 7), white, rgb(1, 209, 1));
+    font-family: 'Courier New', 'Courier', 'monospace';
+    text-align: center;
+    font-size: larger;
+}
+/* Navbar styling */
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.navbar ul li{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+.navbar ul li a:hover{
+    color: rgb(51, 255, 0);
+}
+/* heading styling */
+.siteheading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+    color: aliceblue;
+}
+.siteheading a{
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 16px;
+}
+.siteheading a:hover{
+    color: rgb(26, 30, 240);
+    background: linear-gradient(rgb(243, 133, 7),rgb(255, 255, 255),rgb(43, 226, 43));
+    border: 5px, solid, red;
+}
+/* body alignment setting */
+section{
+    padding-left: 8%;
+}
+/* image settings */
+#logo{
+padding-left: 2.5%;
+}
+/* section list editing */
+section ul{
+    list-style-type:"# ";
+}
+/* setting h3 font size and color */
+h3{
+    font-size: larger;
+    color: blue;
+    text-decoration-line:underline;
+}
